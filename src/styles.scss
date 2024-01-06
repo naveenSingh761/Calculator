@@ -1,0 +1,83 @@
+.calcontainer {  
+  
+    width: 80vw;
+    max-width: 350px;
+    
+    height: 80vh;
+    border: 1px solid #000;
+    padding: 1rem; 
+    background-color: rgb(99, 13, 118);
+    border-radius: 1rem;
+    margin: 0 auto;
+    
+ 
+    
+    .outputUiCont {  
+        height:20vh;
+        border: 2px solid #d201fc; 
+        text-align: end;
+        color: gold;
+    border-radius: 1rem;
+       overflow: hidden;
+     
+      
+        padding: 1rem;
+       > div  :nth-child(3){
+        color :white;
+       }
+        
+      
+     
+    }
+
+
+
+    
+    
+    .inputUiCont {  
+        height:55vh;
+
+            .__CalButton {  
+                height: 54vh;
+
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                font-size: 2rem;
+                gap:5px;
+                
+
+                align-content: space-around;
+
+                
+            
+                
+
+
+
+                .__uibutton18 {  
+                  
+                    // background-color: red;
+
+                    grid-area: 5/3/6/5;
+
+
+                 
+                }
+
+                .__uibutton {  
+                background-color: #fe9797;  
+                 color: rgb(63, 1, 1);
+                 border-radius: 1rem;
+                 text-align: center;
+                }
+                
+                
+              
+             
+            }
+            
+            
+      
+     
+    }
+}
